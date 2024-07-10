@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(248, 203, 3);
+}
+
+#revers h6{
+  rotate: -90deg;
+  font-size: 12px;
+}
+
+a{
+  color: black;
+}
+
+#addtext input{
+  border: 1px solid black;
+  box-shadow: 1px 1px 2px 1px #111;
+}
+
+#btn{
+  box-shadow: 1px 1px 2px 1px #111;
+}
+
+.articles{
+  height: auto;
+  justify-content: space-evenly;
+}
+
+.articles img{
+  height: auto;
+}
+
+.articles img{
+  width: 100%;
+}
+
+.article{
+  width: 450px;
+  height: auto;
+  /* border: 1px solid black; */
+  /* box-shadow: 1px 1px 2px 1px #111; */
+  margin-top: 22px;
+}

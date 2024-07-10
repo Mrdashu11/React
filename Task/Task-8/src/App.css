@@ -1,0 +1,98 @@
+body{
+    background-color: aliceblue;
+}
+
+.main {
+    width: 330px;
+    height: 650px;
+    background-color: black;
+    color: white;
+    overflow-x: auto;
+    /* Enable vertical scrolling */
+    scrollbar-width: none;
+    /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none;
+    /* Hide the scrollbar in IE/Edge */
+    position: relative;
+    box-shadow: 0 0 10px 2px black;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+.flex-direction {
+    flex-direction: column;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+p {
+    color: gray;
+}
+
+
+
+.dropdown {
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    color: white;
+}
+
+#story {
+    height: auto;
+    /* Set the height as per your requirement */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    scrollbar-width: none;
+    /* Hide the scrollbar in Firefox */
+    -ms-overflow-style: none;
+    /* Hide the scrollbar in IE/Edge */
+}
+
+#story::-webkit-scrollbar {
+    display: none;
+    /* Hide the scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+#story div img {
+    border: 4px solid rgba(146, 5, 5, 0.5);
+    padding: 26px;
+    border-radius: 50%;
+}
+
+#story div h6 {
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+#img {
+    border: 2px solid rgba(166, 147, 147, 0.5);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.image-me{
+    padding: auto;
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    background-image: url('https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883_1280.jpg') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#searchbar{
+    background-color: #000;
+    position: absolute;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+}
